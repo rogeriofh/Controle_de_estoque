@@ -129,13 +129,13 @@ fonte = ("Helvetica", 14)
 nome_label = tk.Label(janela, text="Nome do Item:")
 nome_label.pack()
 nome_entry = tk.Entry(janela, width=30)
-nome_entry.pack(pady=5)
+nome_entry.pack()
 
 
 quantidade_label = tk.Label(janela, text="Quantidade:")
 quantidade_label.pack()
 quantidade_entry = tk.Entry(janela, width=30)
-quantidade_entry.pack(pady=5)
+quantidade_entry.pack()
 
 # Campo de busca na janela principal
 busca_label = tk.Label(janela, text="Pesquisar:")
@@ -145,13 +145,13 @@ busca_entry.pack(side="top", padx=5, pady=5, anchor="ne")
 
 
 adicionar_button = tk.Button(janela, text="Adicionar Item", command=adicionar_item, width=15, height=2)
-adicionar_button.pack()
+adicionar_button.pack(pady=5)
 
 lista_itens = tk.Listbox(janela, width=100, height=20)
 lista_itens.pack()
 
-listar_button = tk.Button(janela, text="Listar Itens", command=listar_itens, width=15, height=2)
-listar_button.pack()
+#listar_button = tk.Button(janela, text="Listar Itens", command=listar_itens, width=15, height=2)
+#listar_button.pack()
 
 visualizar_button = tk.Button(janela, text="Visualizar Itens", command=abrir_janela_visualizacao, width=15, height=2)
 visualizar_button.pack()
