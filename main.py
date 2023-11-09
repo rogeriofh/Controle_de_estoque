@@ -150,8 +150,6 @@ adicionar_button.pack(pady=5)
 lista_itens = tk.Listbox(janela, width=100, height=20)
 lista_itens.pack()
 
-#listar_button = tk.Button(janela, text="Listar Itens", command=listar_itens, width=15, height=2)
-#listar_button.pack()
 
 visualizar_button = tk.Button(janela, text="Visualizar Itens", command=abrir_janela_visualizacao, width=15, height=2)
 visualizar_button.pack()
